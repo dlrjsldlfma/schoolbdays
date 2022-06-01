@@ -6,11 +6,37 @@
     <style>
 	.font1 {
   	  font-family: Arial;
-	}
+        }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          top: 0;
+        }
+        li {
+          float: left;
+        }
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        .active {
+          background-color: #4CAF50;
+        }
     </style>
   </head>
 
   <body class="font1" style="background-color: #F0F0F0">
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
     <center>
       <h1>🎉생축🎉</h1>
       <!-- 설마 이 코드를 뜯어보는 사람은 없겠지 -->
