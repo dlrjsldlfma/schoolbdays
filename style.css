@@ -1,10 +1,11 @@
 .font1 {
-font-family: Arial;
+    font-family: Arial;
+    color: gray;
 }
 
 .footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  background-color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
 }
