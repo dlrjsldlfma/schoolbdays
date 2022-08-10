@@ -8,4 +8,5 @@ function updateVisitCount() {
 	.then(res => {
 		countEl.innerHTML = res.value;
 	})
+	alert("it has worked");
 }
